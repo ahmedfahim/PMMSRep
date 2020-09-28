@@ -1,0 +1,49 @@
+<mat-toolbar color="#e9e9e9" style="height:30%px;padding-right: 20px; 
+border-bottom: slategray;border-bottom: groove;">
+
+    <mat-toolbar-row style="height: 30%;">
+        <img class="mx-auto h-12 w-auto" src="assets/logo.png" alt="amanah jeddah logo" />
+        <button mat-icon-button (click)="toggleSideBar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        
+        <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+            <ul fxLayout="row" fxLayoutGap=20px>
+                <li>
+              
+                        <span>الخدمات الإلكترونية | أمانة محافظة جدة</span>
+                    
+                </li>
+                <li>
+                    <button mat-icon-button>
+                        <mat-icon>help_outline</mat-icon>
+                    </button>
+                </li>
+               <!-- <li>
+                    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+                    <mat-menu #menu="matMenu">
+                        <button mat-menu-item>Item 1</button>
+                        <button mat-menu-item>Item 2</button>
+                    </mat-menu>
+                </li>-->
+
+            </ul>
+        </div>
+        <!-- <span>Third Line</span>
+    <span class="example-spacer"></span>
+    <mat-icon class="example-icon" area-hidden="false" area-label="example-heart-icon">favourite</mat-icon>
+    <mat-icon class="example-icon" area-hidden="false" area-label="example-delete-icon">delete</mat-icon> -->
+    </mat-toolbar-row>
+
+</mat-toolbar>
+<!--<div class="flex bg-white flex-col min-h-screen">
+    <nav id="header" class="relative w-full z-10 top-0 bg-gray-gradient-reverse border-t-4 border-indigo-800">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-4">
+        <div class="flex items-center flex-shrink-0 text-main-blue mr-6">
+            <img class="mx-auto h-12 w-auto" src="favicon.ico" alt="amanah jeddah logo" />
+            <span class="inlne-block border-r-2 border-gray-400 pr-2 mr-2">
+              الخدمات الإلكترونية
+            </span>
+        </div>
+      </div>
+    </nav>-->
